@@ -50,6 +50,17 @@ const data: PortfolioData = {
       "githubLink": "https://github.com/tharunvicky"
     },
     {
+      "title": "Personal Portfolio Website",
+      "description": "Clean, single-page portfolio website showcasing projects, skills, achievements, and professional background in a recruiter-friendly format.",
+      "techStack": ["Next.js", "React", "Framer Motion", "Tailwind CSS"],
+      "points": [
+        "Designed and developed a responsive single-page application using component-based architecture and modern frontend best practices.",
+        "Implemented dynamic content rendering using a centralized JSON configuration to enable easy updates without modifying UI components.",
+        "Enhanced user experience with subtle animations, smooth navigation, and optimized performance for fast recruiter scanning."
+      ],
+      "githubLink": "https://github.com/tharunvicky"
+    },
+    {
       "title": "Sales Analytics Dashboard",
       "description": "Professional Power BI dashboard to track and analyze sales performance across regions and time periods.",
       "techStack": ["Power BI", "DAX", "Data Modeling"],
