@@ -1,0 +1,276 @@
+You are a senior frontend engineer building a production-quality personal portfolio website using Next.js (React).
+
+Follow every instruction exactly. Do not simplify. Do not hardcode content inside components.
+
+────────────────────────────────────
+PROJECT GOAL
+────────────────────────────────────
+Build a clean, minimal, professional single-page portfolio website for an entry-level Computer Science graduate.
+
+The site must:
+
+Work for general fresher roles
+
+Act as a personal brand and learning showcase
+
+Be recruiter-friendly and fast to scan (30–60 seconds)
+
+Be fully driven by JSON-based content for easy updates
+
+────────────────────────────────────
+TECH STACK (MANDATORY)
+────────────────────────────────────
+
+Next.js (React)
+
+Framer Motion for animations
+
+Tailwind CSS or CSS Modules
+
+No backend
+
+No CMS
+
+Static, SEO-friendly build
+
+────────────────────────────────────
+CONTENT MANAGEMENT RULE (CRITICAL)
+────────────────────────────────────
+ALL textual content, labels, project data, skills, achievements, links, and metadata MUST be sourced from a single JSON constant file.
+
+No strings should be hardcoded inside React components.
+
+Use:
+
+/data/portfolioData.json
+
+Components must import and render content dynamically from this file.
+
+────────────────────────────────────
+PROJECT STRUCTURE
+────────────────────────────────────
+/app or /pages
+/components
+/sections
+/data
+└── portfolioData.json
+/public
+└── resume.pdf
+/styles
+
+A file named "resume.pdf" will be manually placed in the /public directory and must be referenced dynamically.
+
+────────────────────────────────────
+SITE STRUCTURE (SINGLE PAGE)
+────────────────────────────────────
+Create the following sections in order:
+
+Hero
+
+About
+
+Skills
+
+Projects
+
+GitHub Showcase
+
+Achievements
+
+Certifications
+
+Resume
+
+Footer
+
+Include a sticky navbar with smooth scrolling.
+
+────────────────────────────────────
+JSON DATA SCHEMA (STRICT)
+────────────────────────────────────
+portfolioData.json must follow this structure exactly:
+
+{
+"hero": {
+"name": "",
+"role": "",
+"tagline": "",
+"cta": {
+"resume": "",
+"github": "",
+"linkedin": ""
+}
+},
+"about": {
+"description": ""
+},
+"skills": {
+"languages": [],
+"frameworks": [],
+"databases": [],
+"tools": []
+},
+"projects": [
+{
+"title": "",
+"description": "",
+"techStack": [],
+"points": [],
+"githubLink": ""
+}
+],
+"github": {
+"profileLink": "",
+"featuredRepos": [
+{
+"name": "",
+"description": "",
+"techStack": []
+}
+]
+},
+"achievements": {
+"cgpa": "",
+"certificationsCount": "",
+"projectsCount": "",
+"githubRepos": ""
+},
+"certifications": [
+{
+"title": "",
+"platform": ""
+}
+],
+"resume": {
+"filePath": "/resume.pdf",
+"linkedin": ""
+},
+"footer": {
+"github": "",
+"linkedin": "",
+"copyright": ""
+}
+}
+
+────────────────────────────────────
+SECTION REQUIREMENTS
+────────────────────────────────────
+
+HERO
+
+Display name, role, tagline
+
+CTA buttons from JSON
+
+Subtle entrance animation
+
+ABOUT
+
+Render description text from JSON
+
+Slightly warmer tone
+
+SKILLS
+
+Categorized display
+
+Icons + labels
+
+No percentages or ratings
+
+PROJECTS
+
+Grid of cards
+
+Each card shows title, description, tech stack, 2–3 bullet points
+
+Hover animation
+
+GitHub link per project
+
+GITHUB SHOWCASE
+
+Curated repo cards from JSON
+
+Link to full GitHub profile
+
+ACHIEVEMENTS
+
+Stat cards
+
+CGPA, certifications count, project count, GitHub repos
+
+CERTIFICATIONS
+
+Simple list/grid
+
+Title and platform
+
+RESUME
+
+Inline PDF preview using /public/resume.pdf
+
+Download button
+
+LinkedIn link from JSON
+
+Must work without external services
+
+FOOTER
+
+GitHub & LinkedIn links
+
+Minimal copyright text
+
+────────────────────────────────────
+ANIMATION RULES
+────────────────────────────────────
+
+Use Framer Motion
+
+Subtle section reveals
+
+Card hover effects
+
+Respect prefers-reduced-motion
+
+No excessive motion
+
+────────────────────────────────────
+NON-FUNCTIONAL REQUIREMENTS
+────────────────────────────────────
+
+Responsive
+
+Accessible
+
+Fast load time
+
+Clean code
+
+SEO-friendly headings
+
+────────────────────────────────────
+STRICTLY AVOID
+────────────────────────────────────
+
+Hardcoded content
+
+Progress bars
+
+Skill percentages
+
+Blogs
+
+Contact forms
+
+Background videos
+
+GitHub API fetching
+
+────────────────────────────────────
+FINAL INSTRUCTION
+────────────────────────────────────
+Build this as a production-ready portfolio.
+All content must be editable by changing only portfolioData.json.
+Components must remain content-agnostic.

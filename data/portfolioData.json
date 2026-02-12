@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "name": "Golla Pujari Tharun",
+    "role": "Computer Science Graduate",
+    "tagline": "Building Scalable Web Apps & Data-Driven Solutions",
+    "cta": {
+      "resume": "#resume",
+      "github": "https://github.com/tharunvicky",
+      "linkedin": "https://linkedin.com/in/tharungolla7",
+      "email": "mailto:tharunvicky752@gmail.com"
+    }
+  },
+  "about": {
+    "description": "Adaptable Computer Science graduate with a balanced mix of web development and data analytics skills. Comfortable building web applications using Django and analyzing datasets with Python, SQL, and Power BI. I am a fast learner with strong communication skills and a results-oriented approach, ready to contribute technically to a dynamic team."
+  },
+  "skills": {
+    "languages": ["Python", "SQL", "HTML", "CSS", "JavaScript"],
+    "frameworks": ["Django", "scikit-learn", "Matplotlib", "React"],
+    "databases": ["MySQL", "RDBMS"],
+    "tools": ["Power BI", "Jupyter Notebook", "Git", "GitHub", "VS Code"]
+  },
+  "projects": [
+    {
+      "title": "Car Rental Web Application",
+      "description": "A full-stack car rental platform enabling users to search, book, and manage vehicle rentals through a structured web interface.",
+      "techStack": ["Django", "MySQL", "HTML/CSS", "Python"],
+      "points": [
+        "Implemented backend logic using Django and managed data persistence with MySQL.",
+        "Ensured smooth end-to-end user workflows from booking initiation to confirmation.",
+        "Designed a responsive frontend for seamless user experience."
+      ],
+      "githubLink": "https://github.com/tharunvicky"
+    },
+    {
+      "title": "Uber Trip Data Analysis",
+      "description": "Data analysis project identifying trends in trip frequency, duration, and demand cycles using Python libraries.",
+      "techStack": ["Python", "Pandas", "Matplotlib", "Scikit-learn"],
+      "points": [
+        "Conducted data cleaning and exploratory analysis to identify key market trends.",
+        "Applied basic predictive modeling techniques to estimate trip durations.",
+        "Visualized insights to communicate findings effectively to stakeholders."
+      ],
+      "githubLink": "https://github.com/tharunvicky"
+    },
+    {
+      "title": "Sales Analytics Dashboard",
+      "description": "Professional Power BI dashboard to track and analyze sales performance across regions and time periods.",
+      "techStack": ["Power BI", "DAX", "Data Modeling"],
+      "points": [
+        "Integrated cleaned datasets and designed intuitive visuals to support business insights.",
+        "Improved accessibility of data-driven insights for decision-making.",
+        "Created interactive filters for regional performance tracking."
+      ],
+      "githubLink": "https://github.com/tharunvicky"
+    }
+  ],
+  "achievements": {
+    "cgpa": "8.10/10.0",
+    "certificationsCount": "3+",
+    "projectsCount": "3+",
+    "githubRepos": "10+"
+  },
+  "certifications": [
+    {
+      "title": "Python for Data Analysis",
+      "platform": "Online Certification",
+      "link": "#"
+    },
+    {
+      "title": "SQL Fundamentals",
+      "platform": "Online Certification",
+      "link": "#"
+    },
+    {
+      "title": "Introduction to IoT",
+      "platform": "NPTEL",
+      "link": "#"
+    }
+  ],
+  "footer": {
+    "github": "https://github.com/tharunvicky",
+    "linkedin": "https://linkedin.com/in/tharungolla7",
+    "email": "mailto:tharunvicky752@gmail.com",
+    "copyright": "© 2025 Golla Pujari Tharun. All rights reserved."
+  }
+}
